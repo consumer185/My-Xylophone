@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+  font-family: courier;
+}
+
+
+.mainpanel {
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cyan {
+  background-color: cyan;
+  padding: 400px 150px;
+  display: inline-block;
+}
+
+#yellow {
+  background-color: yellow;
+  display: inline-block;
+  padding: 400px 150px;
+}
+
+#lime {
+  background-color: lime;
+  padding: 400px 150px;
+  display: inline-block;
+}
+
+#magenta {
+  background-color: magenta;
+  padding: 400px 150px;
+  display: inline-block;
+}
+
+#blue {
+  background-color: blue;
+  padding: 400px 150px;
+  display: inline-block;
+}
+
+.dimButton {
+  filter: brightness(50%);
+}
