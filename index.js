@@ -3,13 +3,13 @@ audio.preload = 'auto';
 
 // need to preload ALL audiofiles here, then just reference which variable they are assigned to below in filenametoplay
 
-var theElement = document.getElementById("cyan");
-
-theElement.addEventListener("touchend", handlerFunction, false);
-
-function handlerFunction(event) {
-  alert("touching worked!");
-}
+// var theElement = document.getElementById("cyan");
+//
+// theElement.addEventListener("touchend", handlerFunction, false);
+//
+// function handlerFunction(event) {
+//   alert("touching worked!");
+// }
 
 
 
